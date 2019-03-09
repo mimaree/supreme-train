@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+
+<Dialogues>
+  <Dialogue>
+    <Text id ="1">
+        <speaks> Witam, Witam nieznajomy</speaks>
+        <Person>  Sklepikarz            </Person>
+        <Choice destination ="2">  Kim jestes?      </Choice>
+        <Choice destination ="5">  masz dla mnie jakies zadanie?     </Choice>
+        <Choice destination ="7">  Co to za miejsce?   </Choice>
+       
+        <Shop>          //Otwiera interfejs skelpu                </Shop>
+    </Text>
+
+    <Text id ="2">
+      <speaks>      jestem sklepikarzem..cos tam cos tam             </speaks>
+      <Person>       Sklepikarz                   </Person>
+      <Choice destination ="3">     </Choice>
+    </Text>
+
+    <Text id ="3">
+      <speaks>      kiedys tez chcialem zostac lowca jak ty... cos tam              </speaks>
+      <Person>       Sklepikarz                   </Person>
+      <Choice destination ="4">      </Choice>
+    </Text>
+
+    <Text id ="4">
+      <speaks>      kolano mnie teraz boli             </speaks>
+      <Person>       Sklepikarz                   </Person>
+      <Choice destination ="xxx">      </Choice>
+      
+    </Text>
+
+    <Text id ="5">
+      <speaks>    Sklepikarz                    </speaks>
+      <Person>           Kreca sie tu bandyci w okolicy             </Person>
+      <Choice destination ="1">    Zrobie to   <NewDialogue> xxx = 10 </NewDialogue>      </Choice>
+      <Choice destination ="1">    Musze to przemysec      </Choice>
+    </Text>
+
+    <Text id ="6">
+      <speaks>        To Polska                </speaks>
+      <Person>        Sklepikarz                </Person>
+      <Choice destination ="7"> Mów dalej      </Choice>
+      <Choice destination ="9">   lubisz ten kraj?    </Choice>
+      <Choice destination ="xxx">  ok, rozumiem     </Choice>
+      <Shop>                          </Shop>
+    </Text>
+
+    <Text id ="7">
+      <speaks>        Polsska to taki las w europie csotam.. csots tam..    </speaks>
+      <Person>        Sklepikarz                </Person>
+      <Choice destination ="8"> </Choice>
+    </Text>
+
+    <Text id ="8">  
+      <speaks>       i dlatego nie lubie polski              </speaks>
+      <Person>        Sklepikarz                </Person>
+      <Choice destination ="9">  lubisz ten kraj?  </Choice>
+      <Choice destination ="xxx" > wracajac do tematu </Choice>
+    </Text>
+
+    <Text id ="9">
+      <speaks>      Nie lubie             </speaks>
+      <Person>        Sklepikarz                </Person>
+      <Choice destination ="xxx" > ok... </Choice>
+    </Text>
+
+
+
+
+
+    <Text id ="10">
+      <speaks> Witam, Witam nieznajomy</speaks>
+      <Person>  Sklepikarz            </Person>
+      <Choice destination ="2">  Kim jestes?      </Choice>
+      <Choice destination ="11"> Co do zadania...    </Choice>
+      <Choice destination ="7">  Co to za miejsce?   </Choice>
+
+      <Shop>          //Otwiera interfejs skelpu                </Shop>
+    </Text>
+
+
+    <Text id ="11">
+      <speaks> Witam, Witam nieznajomy</speaks>
+      <Person>  Sklepikarz            </Person>
+      <Choice destination ="2">  Kim jestes?      </Choice>
+      <Choice destination ="12"> Co do zadania...    </Choice>
+      <Choice destination ="7">  Co to za miejsce?   </Choice>
+    </Text>
+
+
+    <Text id ="12">
+      <speaks> Spytam sie Marka czy ci sie udalo... MAREK!!!</speaks>
+      <Person>  Sklepikarz            </Person>
+      <Quest idQ="1">   13 - 14            </Quest>
+      <Quest idQ="1">   13 - 14            </Quest>
+    </Text>
+
+    <Text id ="13">
+      <speaks> Nie udalo mu sie</speaks>
+      <Person>  Marek            </Person>
+    </Text>
+
+    <Text id ="14">
+      <speaks> Udalo mu sie</speaks>
+      <Person>  Marek            </Person>
+    </Text>
+    
+  </Dialogue>
+  
+  
+  
+  
+  <Dialogue>
+
+
+
+  </Dialogue>
+</Dialogues>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

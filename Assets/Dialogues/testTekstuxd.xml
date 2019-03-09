@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<DialoguesCollection>
+  <Dialogues DialoguesID ="0">
+
+
+    <Dialogue DialogueID="0">
+
+      <Choices>
+        <Choice Destination ="3" Disposable="1"> Zapytam tylko raz! Kim jestes?</Choice>
+        <Choice Destination ="8" Quest="zadanie03">Co to za miejsce?</Choice>
+        <Choice Destination ="100" FalseDestination="110" MakedQuest ="zadanie03">Dawaj wiecej opcji dialogowych!!!!</Choice>
+        <Choice Destination ="666" Exit="1">Narka, jak wroce masz mi poweidziec Dziendobry</Choice>
+        
+        <Shop>          //Otwiera interfejs skelpu                </Shop>
+      </Choices>
+
+
+      <Sentence SentenceID ="0">
+        <Speaks>
+          <![CDATA[Witam Cie poraz pierwszy <color="red">Hiro</color>, DuzeLiter<size=150%> adipiscing elit.</size> Ut tincidunt, 
+tellus <color=#0000FF> non auctor semper, lorem</color> diam suscipit est, sed fermentum velit dolor vel sem.
+Nulla auctor diam turpis, nec lacinia ligula vestibulum sed 
+    ]]>        </Speaks>
+        <Person>Sonick z czapka</Person>
+       
+      </Sentence>
+
+      <Sentence SentenceID ="666">
+        <Speaks>Dzien dobry, o to twoje dialogi</Speaks>
+        <Person>Sonick z czapka</Person>
+        <DialoguePanel ChoicePanel = "0"> ///wybiera choices z dialogue id = 1 </DialoguePanel>
+
+      </Sentence>
+
+      <Sentence SentenceID ="1">
+        <Speaks>No Siema To ja Hroa</Speaks>
+        <Person>Hiro</Person>
+        
+      </Sentence>
+
+      <Sentence SentenceID ="2">
+        <Speaks>Czego chcesz najlepsza postacio wymyslona przez czlowika?</Speaks>
+        <DialoguePanel ChoicePanel = "0"> ///wybiera choices z dialogue id = 1 </DialoguePanel>
+        <Person>       Sklepikarz                   </Person>
+       
+      </Sentence>
+
+      <Sentence SentenceID ="3">
+        <Speaks>Jestem Sonick z czapka</Speaks>
+        <Person>Sonick z czapka</Person>
+      </Sentence>
+
+      
+      
+      <Sentence SentenceID ="4">
+        <Speaks>Moje zamiłowanie to bieganie, mauka i noszenie czapki</Speaks>
+        <Person>Sonick z czapka</Person>
+        
+      </Sentence>
+
+      <Sentence SentenceID ="5">
+        <Speaks>Lubie tez jeść</Speaks>
+        <Person>Sonick z czapka</Person>
+        <DialoguePanel ChoicePanel = "0"> ///wybiera choices z dialogue id = 1 </DialoguePanel>
+      </Sentence>
+
+      
+      
+      <Sentence SentenceID ="8">
+        <Speaks>To je pole testowe</Speaks>
+        <Person>Sonick z czapk</Person>
+        
+      </Sentence>
+
+
+      <Sentence SentenceID ="9">
+        <Speaks>brzydko tu, pusto a komp i tak sie przycina bo to lapek co ledo gothica otpala</Speaks>
+        <Person>Sonick z czapk</Person>
+      </Sentence>
+
+
+      <Sentence SentenceID ="10">
+        <Speaks>Co????</Speaks>
+        <Person>Hiro</Person>
+      </Sentence>
+
+
+
+      <Sentence SentenceID ="11">
+        <Speaks>NicNic....</Speaks>
+        <Person>Sonick z czapk</Person>
+        <DialoguePanel ChoicePanel = "0"> ///wybiera choices z dialogue id = 0 </DialoguePanel>
+      </Sentence>
+
+
+
+
+      <Sentence SentenceID ="100">
+        <Speaks>DobraDobra, juz daje</Speaks>
+        <Person>Sonick z czapk</Person>
+      
+      </Sentence>
+
+
+      <Sentence SentenceID ="101">
+        <Speaks>Musze je tylko gdzies znalesc...</Speaks>
+        <Person>Sonick z czapk</Person>
+      
+      
+      </Sentence>
+
+
+      <Sentence SentenceID ="102">
+        <Speaks>O chyba je znalazlem</Speaks>
+        <Person>Sonick z czapk</Person>
+       
+      </Sentence>
+
+      <Sentence SentenceID ="103">
+        <Speaks>Prosze o to one, brzydkie bo brzydkie ale są</Speaks>
+        <Person>Sonick z czapk</Person>
+        <DialoguePanel ChoicePanel = "1"> ///wybiera choices z dialogue id = 1 </DialoguePanel>
+      </Sentence>
+
+
+    </Dialogue>
+
+   
+    <Dialogue DialogueID="1">
+     
+      <Choices>
+          <Choice Destination ="2" Disposable="1">Opcja dialogowa jednorazowa</Choice>
+          <Choice Destination ="5" zadanie="zadanie03">Dawaj mnie z powrotem do tamtych dialogow</Choice>
+        <Choice Destination ="10" zadanie="zadanie03">Gdzie jest wyjscie?!</Choice>
+      </Choices>
+
+      <Sentence SentenceID ="2">
+        <Speaks>Co oznacza ta"Opcja dialogowa jednorazowa"</Speaks>
+        <Person>Hiro</Person>
+      </Sentence>
+
+      <Sentence SentenceID ="3">
+        <Speaks>To, że już nigdy się o to nie zapytasz. Muhahaha</Speaks>
+        <Person>Sonick z czapk</Person>
+        <DialoguePanel  ChoicePanel = "1">> ///lista wyborow z 1  </DialoguePanel>
+      </Sentence>
+
+      <Sentence SentenceID ="5">
+        <Speaks>Bosz, juz juz...</Speaks>
+        <Person>Sonick z czapk</Person>
+      </Sentence>
+
+      <Sentence SentenceID ="6">
+        <Speaks>Nie Za dobrze ci z tymi wyborami co?</Speaks>
+        <Person>Sonick z czapk</Person>
+      </Sentence>
+
+      <Sentence SentenceID ="7">
+        <Speaks>Masz, ciesz sie..</Speaks>
+        <Person>Sonick z czapk</Person>
+        <DialoguePanel ChoicePanel = "0"> ///lista wyborow z 0 panelu </DialoguePanel>
+    </Sentence>
+
+      <Sentence SentenceID ="10">
+        <Speaks>Nie ma tak łatwo!</Speaks>
+        <Person>Sonick z czapk</Person>
+      </Sentence>
+
+
+      <Sentence SentenceID ="11">
+        <Speaks>Nie zawsze mozna sobie tak o wyjsc</Speaks>
+        <Person>Sonick z czapk</Person>
+        <DialoguePanel ChoicePanel = "1"> ///lista wyborow z 0 panelu </DialoguePanel>
+      </Sentence>
+
+    </Dialogue>
+    
+   </Dialogues>
+  </DialoguesCollection>
